@@ -1,12 +1,16 @@
-import  { PureComponent } from "react";
-import Hello from "./Component/Pure";
-import Simple from "./Component/Simple";
+
+import "./App.css";
+import SimpleCounterComponent from "./components/RegularComponent";
+import PureCounterComponent from "./components/PureComponent";
+
 function App() {
+
+
   return (
-    <div>
-      <Simple />
-      <Hello />
-    </div>
+    <>
+      <SimpleCounterComponent />
+      <PureCounterComponent />
+    </>
   );
 }
 
